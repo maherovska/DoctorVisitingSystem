@@ -26,6 +26,7 @@ namespace DoctorVisitingSystem.Repositories
 
         public SqlDoctorRepository(string connectionString)
         {
+            // IP: ініціалізацію _connectionString можна було б "віддати" базовому класу SqlBaseRepository
             _connectionString = connectionString;
         }
 
